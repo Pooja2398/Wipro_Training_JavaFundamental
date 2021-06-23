@@ -1,0 +1,14 @@
+import java.util.*;
+public class question1{
+
+	public static void main(String[] args) {
+		int[] arr= {6,3,8,4,2,9,1,6};
+		List<Integer> diffArray = new ArrayList<>();
+		for(int item: arr) {
+			if(!diffArray.contains(item)) {
+				diffArray.add(item);
+			}
+		}
+		System.out.println(Arrays.toString(diffArray.toArray()));
+		}
+	}
