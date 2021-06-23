@@ -1,0 +1,10 @@
+import java.util.*;
+public class question1{
+
+	public static void main(String[] args) {
+		int[] arr= new int[]{6,7,4,3,9,1,5,9};
+		Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+		}
+	}
+
