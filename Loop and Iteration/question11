@@ -13,7 +13,7 @@ public class task {
 				System.out.println(a+" is prime.");
 			    }
 			    else{
-			        temp=0;
+			        System.out.println(a+" is not prime.");
 			    }
 		    }
 	}
