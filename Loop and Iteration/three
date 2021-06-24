@@ -7,7 +7,7 @@ public class task {
         System.out.println("No Values");
         }
     else{
-        for(String i : args)     //for each value in args store in i
+        for(String i : args)    
             System.out.print(i+" , ");
         }
 	}
