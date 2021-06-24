@@ -1,0 +1,19 @@
+import java.util.*;
+public class task {
+
+	public static void main(String[] args) {
+		boolean ans=true;
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int digit1=a%10;
+        int digit2=b%10;
+        if (digit1==digit2)
+        	ans=true;
+        else
+        	ans=false;
+        System.out.println(ans);
+	}
+
+}
